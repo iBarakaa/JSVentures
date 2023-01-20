@@ -7,4 +7,4 @@ boolean, string, null, symbol, object */
 
 var a = 9; //variable declaration and assignment
 var camelCase = "camelCaseOne is indeed JS best practise"; //this is an instance of camelCase in action as JS is case sensitive
-console.log(a);
+console.log(a); //'npm install prompt-sync' allows entry 
