@@ -31,6 +31,10 @@ console.log(quoteStr);
 const escapeStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 console.log(escapeStr);
 
-//use of the concatenation operator
+//use of the concatenation operator, can also be use with +=
 const conctStr = "This is the start. " + "This is the end.";
-console.log(conctStr)
+console.log(conctStr);
+let conctStr2 = "This is the first. ";
+conctStr2 += "This is the last.";
+console.log(conctStr2);
+
