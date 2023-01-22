@@ -23,5 +23,10 @@ let n = 5;
 n += 10; //operator that merges assignment and arithmetic operations
 console.log(n);
 
-const quoteStr = "Hanibal Barca said \"Aut inveniam viam aut faciam\" which translated to \"I will either find a way or make one\"." //how to place quotes within quotes
-console.log(quoteStr)
+const quoteStr = "Hanibal Barca said \"Aut inveniam viam aut faciam\" which translated to \"I will either find a way or make one\"."; //how to place quotes within quotes
+console.log(quoteStr);
+
+/* escaping characters include: \' & \" - quotations, \\ - backslash itself, \n - newline, \t - tab.
+\r - carriage return, \b - word boundary, \f - form feed */
+const escapeStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+console.log(escapeStr);
