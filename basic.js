@@ -30,3 +30,7 @@ console.log(quoteStr);
 \r - carriage return, \b - word boundary, \f - form feed */
 const escapeStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 console.log(escapeStr);
+
+//use of the concatenation operator
+const conctStr = "This is the start. " + "This is the end.";
+console.log(conctStr)
