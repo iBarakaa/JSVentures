@@ -18,3 +18,10 @@ const MOTHER_NATURE = 'is the greatest' //best practise to name consts with Caps
 const product = 12 * 12; 
 const modulus = 11 % 3;
 console.log(product, modulus);
+
+let n = 5;
+n += 10; //operator that merges assignment and arithmetic operations
+console.log(n);
+
+const quoteStr = "Hanibal Barca said \"Aut inveniam viam aut faciam\" which translated to \"I will either find a way or make one\"." //how to place quotes within quotes
+console.log(quoteStr)
