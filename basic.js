@@ -40,5 +40,14 @@ console.log(conctStr2);
 const conctStr3 = "Isaac";
 const conctStr4 = "My name is " + conctStr3 + ", and I am the greatest that is, was and will ever be.";
 console.log(conctStr4);
- 
+
+//appending variables to Strings and finding the length of String Values
+const someText = 'super duper fun';
+let someString = 'Coding is ';
+someString += someText;
+console.log(someString);
+console.log(someString.length);
+
+
+
 
