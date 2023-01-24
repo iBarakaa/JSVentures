@@ -10,3 +10,7 @@ console.log(mArray);
 const iarray = [50, 60, 70];
 const myData = iarray[0];
 console.log(myData);
+//array entries are mutable and can be changed freely unlinke Strings
+const myArray = [18, 64, 99];
+myArray[0] = 45;
+console.log(myArray);
