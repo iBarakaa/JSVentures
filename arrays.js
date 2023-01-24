@@ -43,4 +43,6 @@ const delFirstEntry = pArray.shift();
 console.log(delFirstEntry); 
 console.log(pArray);
 
-
+//unshift function adds to the front of the array
+const addFirstEntry = pArray.unshift(['Paul', 35]);
+console.log(pArray);
