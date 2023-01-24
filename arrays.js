@@ -14,3 +14,15 @@ console.log(myData);
 const myArray = [18, 64, 99];
 myArray[0] = 45;
 console.log(myArray);
+
+//working with multidimensional arrays 
+//changing position of muArray[0][0] to 8?
+const muArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const muData = muArray[2][1];
+console.log(muData);
