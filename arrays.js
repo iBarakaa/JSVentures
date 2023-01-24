@@ -38,3 +38,9 @@ const delEntry = pArray.pop();
 console.log(delEntry); //displays entry to be popped
 console.log(pArray);
 
+//shift function removes the first elements in an array 
+const delFirstEntry = pArray.shift();
+console.log(delFirstEntry); 
+console.log(pArray);
+
+
