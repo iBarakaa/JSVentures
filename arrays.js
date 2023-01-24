@@ -26,3 +26,8 @@ const muArray = [
 
 const muData = muArray[2][1];
 console.log(muData);
+
+//push functions add entries into the end of the array
+const pArray = [["John", 23], ['cat', 2]];
+pArray.push(['dog', 3]);
+console.log(pArray);
