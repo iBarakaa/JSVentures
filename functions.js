@@ -71,3 +71,13 @@ function addFive() {
     sum = sum + 5;
 }
 addFive();
+
+//assignment of a returned value to variable
+let processed = 0;
+
+function processArg(num) {
+    return (num + 3) / 5;
+}
+
+processed = processArg(7);
+console.log(processed);
