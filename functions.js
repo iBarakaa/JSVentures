@@ -54,3 +54,12 @@ fun2();
   console.log('outside myLocalScope', myVar); */
   //uncomment the above code block to run local var tests
 
+//local variables take precedence over global vars in case of similar naming
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  const outerWear = 'sweater'; //sweater overrides tshirt
+  return outerWear;
+}
+
+console.log(myOutfit());
