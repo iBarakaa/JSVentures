@@ -18,4 +18,5 @@ function timesFive(num) {
     return num * 5;
 }
 
-timesFive(5);
+var x = 5;
+timesFive(x);
