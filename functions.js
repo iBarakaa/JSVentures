@@ -42,3 +42,15 @@ function fun2() {
 }
 fun1();
 fun2();
+
+//variables declared within a function are local variables and only visible within that function
+//instance of tests for local variables
+/*function myLocalScope() {
+    let myVar;
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+  
+  console.log('outside myLocalScope', myVar); */
+  //uncomment the above code block to run local var tests
+
