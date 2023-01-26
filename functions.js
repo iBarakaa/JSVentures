@@ -63,3 +63,11 @@ function myOutfit() {
 }
 
 console.log(myOutfit());
+
+//undefined values returned from a function
+let sum = 0;
+
+function addFive() {
+    sum = sum + 5;
+}
+addFive();
