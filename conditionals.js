@@ -9,3 +9,11 @@ function trueOrFalse(wasThatTrue) {
 
 //trueOrFalse(true); uncomment this line to run output for the code above
 
+//js has type coercion which involves comparison of two datatypes converted to match
+function testEquality(val) {
+    if(val == 10) {
+        return 'Equal';
+    }
+    return 'Inequivalent';
+}
+console.log(testEquality('10')); // Type Coercion instance
