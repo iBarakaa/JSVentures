@@ -17,3 +17,12 @@ function testEquality(val) {
     return 'Inequivalent';
 }
 console.log(testEquality('10')); // Type Coercion instance
+
+// '===' strict equalities do not perform type coercion
+function testStrict(val) {
+    if(val === '10') {
+        return 'Equal';
+    }
+    return 'inequivalent'
+}
+console.log(testStrict(10));
