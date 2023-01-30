@@ -26,3 +26,9 @@ function testStrict(val) {
     return 'inequivalent'
 }
 console.log(testStrict(10));
+
+//checking the type of values 
+console.log(typeof 3);
+console.log(typeof '3');
+
+
