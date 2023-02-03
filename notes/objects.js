@@ -14,3 +14,9 @@ const dogName = myDog.name;
 const dogFriends = myDog.friends;
 
 console.log(dogName, dogFriends);
+
+//accessing object properties with bracket notations
+const dogLegs = myDog['legs'];
+const dogTails = myDog['tails'];
+
+console.log(dogLegs, dogTails);
