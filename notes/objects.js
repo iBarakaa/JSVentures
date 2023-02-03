@@ -8,3 +8,9 @@ const myDog = {
 };
 
 console.log(myDog)
+
+// accessing object properties with dot notations
+const dogName = myDog.name;
+const dogFriends = myDog.friends;
+
+console.log(dogName, dogFriends);
