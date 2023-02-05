@@ -38,31 +38,3 @@ console.log(myDog);
 delete myDog.tails;
 console.log(myDog);
 
-// instance of a complex object data structure
-// the array contains two objects 
-const myMusic = [
-    {
-      "artist": "Billy Joel",
-      "title": "Piano Man",
-      "release_year": 1973,
-      "formats": [
-        "CD",
-        "8T",
-        "LP"
-      ],
-      "gold": true
-    }, // first object
-  
-    {
-      'artist': 'Imagine Dragons',
-      'title': 'Night Visions',
-      'release_year': 2012,
-      'formats': [
-        'CD',
-        'Mp3',
-        'LP'
-      ]
-    } // second object
-  ];
-
-  console.log(myMusic);
