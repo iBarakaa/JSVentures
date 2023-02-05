@@ -27,9 +27,13 @@ const dogNames = myDog[dog];
 console.log(dogNames)
 
 //updating object properties
-myDog.friends = ['man', 'cats', 'dragons'];
+myDog.friends = ['man', 'cats', 'dragons']; //you may also use bracket notation for this
 console.log(myDog.friends);
 
 //adding properties to objects
-myDog.sound = 'Bark';
+myDog.sound = 'Bark'; // you may also use bracket notation for this
+console.log(myDog);
+
+//deletion of properties from objects
+delete myDog.tails;
 console.log(myDog);
