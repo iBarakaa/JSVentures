@@ -25,3 +25,11 @@ console.log(dogLegs, dogTails);
 const dog = 'name';
 const dogNames = myDog[dog];
 console.log(dogNames)
+
+//updating object properties
+myDog.friends = ['man', 'cats', 'dragons'];
+console.log(myDog.friends);
+
+//adding properties to objects
+myDog.sound = 'Bark';
+console.log(myDog);
