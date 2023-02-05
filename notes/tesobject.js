@@ -10,7 +10,7 @@ const myDog = {
 function testObj(obj, objProp) {
 
     if (obj.hasOwnProperty(objProp) == true) {
-        return obj[objProp];
+        return obj[objProp]; // here, it is advised to use bracket notations
     }
     return 'Not Found';
 }
