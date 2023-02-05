@@ -19,4 +19,9 @@ console.log(dogName, dogFriends);
 const dogLegs = myDog['legs'];
 const dogTails = myDog['tails'];
 
-console.log(dogLegs, dogTails);
+console.log(dogLegs, dogTails); 
+
+//accessing object properties with variables
+const dog = 'name';
+const dogNames = myDog[dog];
+console.log(dogNames)
