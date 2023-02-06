@@ -44,4 +44,24 @@ const myMusic = [
   console.log(gloveBoxContents);
 
   //accessing nested arrays
-  
+  const myPlants = [
+    {
+      type: "flowers",
+      list: [
+        "rose",
+        "tulip",
+        "dandelion"
+      ]
+    },
+    {
+      type: "trees",
+      list: [
+        "fir",
+        "pine",
+        "birch"
+      ]
+    }
+  ];
+  // second tree holds the value pine
+  const secondTree = myPlants[1].list[1];
+  console.log(secondTree);
