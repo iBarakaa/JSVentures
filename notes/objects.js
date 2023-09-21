@@ -9,6 +9,9 @@ const myDog = {
 
 console.log(myDog)
 
+// differences between dot & bracket notations 
+// bracket - dynamic keys (key is evaluated from expression), dot - static keys (key is typed directly)
+
 // accessing object properties with dot notations
 const dogName = myDog.name;
 const dogFriends = myDog.friends;
