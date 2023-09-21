@@ -19,7 +19,7 @@ const recordCollection = {
     }
   };
   
-
+  // in the function we use bracket notations due to its acceptance of dynamic keys
   function updateRecords(records, id, prop, value) {
     // checks is value is empty and if so the property is deleted
     if (value === "") {
