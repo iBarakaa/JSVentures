@@ -43,3 +43,20 @@ const recordCollection = {
   }
   
   updateRecords(recordCollection, 5439, 'artist', 'ABBA');
+
+//Records Collection V2
+  function updateRecords(records, id, prop, value) {
+    // Access target album in record collection
+    const album = records[id];
+    // Update the album
+    if (value === "") {
+      delete album[prop];
+    } else if (prop !== "tracks") {
+      album[prop] = value;
+    } else {
+    // here, short circuit evaluation is employed
+      album["tracks"] = album["tracks"] || [];
+      album["tracks"].push(value);
+    }
+    return records;
+  }
