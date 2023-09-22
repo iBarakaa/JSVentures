@@ -20,3 +20,13 @@ for (let i=1; i<=9; i+=2) {
 }
 
 console.log(oddArray);
+
+// odd number reverse push 
+
+const roddArray = [];
+
+for (let i=9; i>=1; i-=2) {
+    roddArray.push(i);
+}
+
+console.log(roddArray);
