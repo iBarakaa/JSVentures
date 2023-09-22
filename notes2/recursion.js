@@ -6,7 +6,7 @@ function sum(arr, n) {
         return 0;
     }
 
-    // the base case prevents infinite execution 
+    // the base case prevents infinite execution of the recursive function
     else {
         return sum(arr, n-1) + arr[n-1];
     }
