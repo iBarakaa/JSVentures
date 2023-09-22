@@ -11,3 +11,12 @@ for  (let i=1; i<6; i++) {
 }
 
 console.log(myArray);
+
+// odd number for loop
+const oddArray = [];
+
+for (let i=1; i<=9; i+=2) {
+    oddArray.push(i);
+}
+
+console.log(oddArray);
